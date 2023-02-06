@@ -284,7 +284,7 @@ void checkStartEnd(float **signal, int channels, int nsamples, float normalizedD
 	range[0] = firstSmpsPrevious != (nsamples - 1) ? firstSmpsPrevious : 0;
 	range[1] = lastSmpsPrevious + 1;
 }
-#include "../libsamplerate\samplerate.h"
+#include "../libsamplerate/samplerate.h"
 #define DRMP3_IMPLEMENTATION
 #include "../dr_mp3.h"
 #define DR_FLAC_IMPLEMENTATION
